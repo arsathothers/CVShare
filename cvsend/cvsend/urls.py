@@ -19,5 +19,8 @@ from base_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name="index")
+    path('', views.index, name="index"),
+    path('documentation', views.docs, name="documentation"),
+    # path('output', views.result, name="result"),
+    # path('error', views.err, name="error"),
 ]

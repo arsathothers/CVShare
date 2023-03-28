@@ -3,14 +3,40 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 background-size: cover;
 }
 
-.container{
+body.home{background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) center center;}
+body.documentation{background:#EFEAEA;}
+body.result{background: black;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#i_container{
 position:relative;
-margin: 1.5rem 1rem;
+margin: 1.3rem 1rem;
 text-align: center;
 }
 
+#res_container{
+padding:auto;
+margin:auto;
+}
+
+#res_jumbotron{
+padding:auto;
+margin:auto;
+text-align: center;
+margin-top: 7rem;
+}
+
 .col-lg-12{
-margin: 1.2rem;
+margin: 1.1rem;
+}
+
+.doc_container{
+align-items: center;
+align-content: center;
+margin-top: 3rem;
 }
 
 .flex-container {
@@ -22,3 +48,4 @@ margin: 1.2rem;
   align-content: center;
   color:black;
 }
+

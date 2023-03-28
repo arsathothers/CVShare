@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation</title>
+ <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="documentation">
+<div class="container">
+        <div class="col-md-offset-3 doc_container">
+
+<!--            Instruction-->
+            <!--            Email Generation Section-->
+            <article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/" class="u-url">Instructions to follow</a></h1>
+
+
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+        <h5>Steps to get Successful mail drops</h5>
+        <p>Enter email address for which you have <a href="#email_generation">generated token</a></p>
+<p>Enter 16 digits token generated from mail service provider under token field</p>
+<p>Enter the subject which you have to fill in each mail, you can use the keyword <DESIG> to replace it with designation you are going to apply</p>
+<p>Enter the body of mails, here too you can use the keyword <code><DESIG></code> to replace it with designation you are going to apply</b></p>
+        <p>Upload Excel(.xlsx) file with the format described under <a href="#excel_file">Prep .xlsx file</a></p>
+        <p>Upload your resume at the 2nd upload button. Allowed formats were .pdf, .docx & .odt</p>
+        <p>Finally click Submit button and wait for mails to send</p>
+</div>
+    </div>
+
+
+</article>
+
+<!--            Email Generation Section-->
+            <article class="post-text storypage" id = "email_generation" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">How to Generate "token"?</a></h1>
+
+
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+        <h5>Turn on 2-Step Verification</h5>
+        <p>With 2-Step Verification, also called two-factor authentication, you can add an extra layer of security to your account in case your password is stolen. After you set up 2-Step Verification, you can sign in to your account with:<ol><li>Your password</li><li>Your phone</li></ol></p>
+<p>Click on top-right profile icon, once after Login to your Gmail Account <a href="https://myaccount.google.com/" rel="noopener" target="_blank">Google Account</a></p>
+<p>Select <b>Manage your Google Account</b></p>
+<p>Under <b>Security</b> -> <b>2-step verification</b></p>
+        <p>Select Your preferred method for verification and select continue</p>
+        <p>Select <b>2-step Verification</b> -> Select <b>App password</b></p>
+        <p>under the window select device as others and name it as your wish</p>
+        <p>You should now generated with 16 digit token. Fill the token under Token field.</p>
+
+
+<p>Here's more info about the <a href="https://support.google.com/accounts/answer/185833?hl=en">2-Step Verification</a>.</p>
+</div>
+    </div>
+
+
+</article>
+<!--            Excel file generation-->
+            <article class="post-text storypage" id = "excel_file" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Prep .xlsx file"?</a></h1>
+
+
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+        <h2>Guide to create .xlsx file</h2>
+        <p>To do this you need to open Excel or <a href="https://sheets.new/">Google sheet</a>, make the heading(1st row) as designation and email in two separate cells</p>
+<p>Fill the corresponding rows with appropriate datas. Be ensure that you have filled email id's under email heading
+    and designation you are going to apply under designation heading</p>
+<p>If it's a Excel save it as usual</p>
+    <p>If using google sheet select <b>File</b> -> <b>Download</b> -> <b>Microsoft Excel(.xlsx)</b></p>
+<p>Once done with this Steps upload the file using Excel Upload button.</b></p>
+</div>
+    </div>
+</article>
+
+</div>
+</div>
+
+
+</body>
+</html>

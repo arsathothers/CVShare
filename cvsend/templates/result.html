@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+{% extends 'base.html' %}
+    {% block title_block %}
+<title>Final</title>
+  {% endblock %}
+
+{% block body_block %}
+<body class = "result">
+<div class="container" id="res_container">
+    <div class="jumbotron" id="res_jumbotron">
+    <h3>Resume has been sent for {{total_mail_send}} mail address</h3>
+        <h5>Thinks to do</h5>
+        <ol>
+            <li>Dont refresh this page to prevent send mail again</li>
+            <li>Check send items in mailbox to verify delivery status</li>
+        </ol>
+{% if err_data %}
+<h3  style="color:red;">{{err_data}}</h3>
+{% endif %}
+</div>
+</div>
+</body>
+{% endblock %}
+</html>
